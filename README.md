@@ -4,6 +4,12 @@
 
 This repo contains a concrete demo: the model was given a coding task and produced correct, well-tested Python on the first try.
 
+## Demo
+
+![Ornith-1.5-9B Demo](media/ornith_demo.gif)
+
+*Full cycle: model reasons → writes code → executes tests → prints results. All local, no cloud.*
+
 ## Quick Start
 
 ```bash
@@ -50,10 +56,6 @@ ollama create ornith-1.5-9b:q4_k_m \
 ollama run ornith-1.5-9b:q4_k_m \
   "Write a Python function that..."
 ```
-
-## Demo Video
-
-[media/ornith_coding_demo.mp4](media/ornith_coding_demo.mp4) — Full screen recording of the model thinking, writing code, and executing tests.
 
 ## Why This Matters
 
